@@ -11,6 +11,7 @@ echo 'Copying File'
 sleep 5
 mv libflashplayer.so /usr/lib/mozilla/plugins/
 echo 'Deleting Template Files'
+sleep 5
 rm -r libflashplayer.so
 rm -r license.pdf
 echo 'OK!'
